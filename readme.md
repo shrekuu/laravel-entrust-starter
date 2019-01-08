@@ -1,6 +1,8 @@
-# Yet Another Multi-auth Starter for Laravel
+# Laravel Entrust Starter based on [entrust](https://github.com/Zizaco/entrust) and [laravel-subdomain-multi-auth-starter](https://github.com/shrekuu/laravel-subdomain-multi-auth-starter) 
 
+## Notice
 
+* In case `php artisan entrust:migration` command fails, check [this issue](https://github.com/Zizaco/entrust/issues/836#issuecomment-326950502) and change `fire` to `handle` in `vendor/zizaco/entrust/src/commands/MigrationCommand.php#L35`
 
 ### nginx config example
 
